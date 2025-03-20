@@ -98,7 +98,7 @@ const Main = () => {
               className=" rounded-[50%] p-[7px] bg-gradient-to-r from-blue-500 to-purple-500"
             >
               <img
-                src="public/Person_img.webp"
+                src="/Person_img.webp"
                 alt="img"
                 className="lg:w-[500px] relative w-[300px] rounded-[50%] "
               />
