@@ -15,7 +15,7 @@
     width: 0;
   }
   to {
-    width: 67vh;
+    width: fit-content;
   }
 }
 #profile_photo {
