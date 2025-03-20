@@ -13,7 +13,7 @@ const CircularProgressBar = ({ percentage, name }) => {
   const circumference = 2 * Math.PI * radius;
   const offset = circumference - (percentage / 100) * circumference;
 
-  return (
+  return ( 
     <div className="flex flex-col items-center m-4">
       <svg width="160" height="160" viewBox="0 0 100 100">
         <defs>
