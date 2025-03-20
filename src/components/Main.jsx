@@ -17,7 +17,7 @@ const Main = () => {
               Hi I'm Aman Prajapati
             </h1>
             <div id="text_animation" className="md:text-5xl text-2xl">
-              Frontend Developer
+              Frontend Dev
             </div>
             <p className="pt-10 w-[80%]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -98,7 +98,7 @@ const Main = () => {
               className=" rounded-[50%] p-[7px] bg-gradient-to-r from-blue-500 to-purple-500"
             >
               <img
-                src="public/Person_img.webp"
+                src="public/Person_img.png"
                 alt="img"
                 className="lg:w-[500px] relative w-[300px] rounded-[50%] "
               />
