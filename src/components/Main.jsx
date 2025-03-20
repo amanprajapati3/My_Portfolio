@@ -17,7 +17,7 @@ const Main = () => {
               Hi I'm Aman Prajapati
             </h1>
             <div id="text_animation" className="md:text-5xl text-2xl">
-              Frontend Developer
+              Frontend Dev
             </div>
             <p className="pt-10 w-[80%]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
