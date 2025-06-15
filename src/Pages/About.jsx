@@ -11,7 +11,7 @@ const About = () => {
         <div className="flex justify-center" id="slide_from_left">
           <div className="rounded-full p-[7px] bg-gradient-to-r from-blue-500 to-purple-500">
             <img
-              src="/Person_img.webp" // Ensure this is inside `public/` or use an `import`
+              src="/Person_img.png" // Ensure this is inside `public/` or use an `import`
               alt="Aman Prajapati"
               className="lg:w-[300px] w-[250px] shadow-2xl shadow-gray-900 rounded-full"
             />

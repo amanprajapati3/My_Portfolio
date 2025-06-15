@@ -33,7 +33,7 @@ const Projects = () => {
         <div id="project_scroll">
         <Carousel responsive={responsive} className=" rounded-xl md:p-2  md:mx-5  my-3"  >
           <div className="bg-white rounded-xl hover:shadow-2xl hover:shadow-gray-500 transition-all duration-200 text-center md:mx-8">
-            <img src="public/Blog_img.png" className="md:p-1 rounded-xl h-64" alt="" />
+            <img src="/Blog_img.png" className="md:p-1 rounded-xl h-64" alt="" />
             <h1 className="text-xl font-semibold py-2">Blog Website</h1>
             <p className="p-2 text-md">
               This is a frontend clone of a blog website built using{" "}
@@ -45,7 +45,7 @@ const Projects = () => {
             </button>
           </div>
           <div className="bg-white rounded-xl hover:shadow-2xl hover:shadow-gray-500 transition-all duration-200 text-center md:mx-8">
-            <img src="public/Screenshot 2025-06-15 154548.png" className=" rounded-xl h-64" alt="" />
+            <img src="/Screenshot 2025-06-15 154548.png" className=" rounded-xl h-64" alt="" />
             <h1 className="text-xl font-semibold py-2">E-Commerce</h1>
             <p className="p-2 text-md">
               I have developed a MERN stack E-commerce application using the <strong>(MongoDB, Express.js, React, and Node.js)</strong> . This project features a seamless user experience with..
@@ -55,7 +55,7 @@ const Projects = () => {
             </button>
           </div>
           <div className="bg-white rounded-xl hover:shadow-2xl hover:shadow-gray-500 transition-all duration-200 text-center md:mx-8">
-            <img src="public/jarvis_img.png" className="rounded-xl h-64 w-full" alt="" />
+            <img src="/jarvis_img.png" className="rounded-xl h-64 w-full" alt="" />
             <h1 className="text-xl font-semibold">AI Virtual Assistance</h1>
             <p className="p-2 text-md">
             I have developed an AI virtual assistant called <strong> Jarvis</strong> using <strong>HTML, CSS, and JavaScript</strong> . It simulates interactive conversations and performs various tasks..
@@ -65,7 +65,7 @@ const Projects = () => {
             </button>
           </div>
           <div className="bg-white rounded-xl hover:shadow-2xl hover:shadow-gray-500 transition-all duration-200 text-center md:mx-8">
-            <img src="public/full_stack_blog.png" className=" rounded-xl h-64" alt="" />
+            <img src="/full_stack_blog.png" className=" rounded-xl h-64" alt="" />
             <h1 className="text-xl font-semibold py-2">Full Stack Blog App</h1>
             <p className="p-2 text-md">
             I have developed a MERN stack blog application using the <strong>(MongoDB, Express.js, React, and Node.js)</strong> . This project features a seamless user experience with..
@@ -76,7 +76,7 @@ const Projects = () => {
           </div>
           <div className="bg-white rounded-xl hover:shadow-2xl hover:shadow-gray-500 transition-all duration-200 text-center md:mx-8">
             <center>
-            <img src="public/calculator_img.png" className=" rounded-xl h-64" alt="" />
+            <img src="/calculator_img.png" className=" rounded-xl h-64" alt="" />
             </center>
             <h1 className="text-xl font-semibold py-2">Calculator</h1>
             <p className="p-2 text-md">
@@ -87,7 +87,7 @@ const Projects = () => {
             </button>
           </div>
           <div className="bg-white rounded-xl hover:shadow-2xl hover:shadow-gray-500 transition-all duration-200 text-center md:mx-8 ">
-            <img src="public/todo_img.png" className=" rounded-xl h-64" alt="" />
+            <img src="/todo_img.png" className=" rounded-xl h-64" alt="" />
             <h1 className="text-xl font-semibold py-2">ToDo List</h1>
             <p className="p-2 text-md">
             I have built a fully functional <strong>To Do List</strong> using <strong>HTML, CSS, and JavaScript</strong> . It features a user-friendly interface with essential arithmetic operations and..
