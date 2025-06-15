@@ -31,12 +31,12 @@ const Contact = () => {
     <>
       <div className="mt-16 flex justify-center mx-auto">
         <div className="p-5">
-          <h1 className="text-2xl text-center font-bold font-mono lg:text-4xl">
+          <h1 className="text-xl text-center font-bold font-mono lg:text-3xl">
             Contact Us
           </h1>
           <div className="mt-3 flex gap-10 flex-wrap">
             <div>
-              <label htmlFor="" className="font-bold font-sans lg:text-2xl">
+              <label htmlFor="" className="font-bold font-sans lg:text-xl">
                 Send us a message
               </label>{" "}
               <br />
@@ -50,7 +50,7 @@ const Contact = () => {
                   type="text"
                   placeholder="Your Name"
                   name="name"
-                  className="border-2 border-gray-300 focus:bg-gray-200 outline-none pl-2 py-1  rounded-md w-[100%] lg:text-xl"
+                  className="border-2 border-gray-300 focus:bg-gray-200 outline-none pl-2 py-1  rounded-md w-[100%] "
                   {...register("name", { required: true })}
                 />
                 {errors.name && (
@@ -64,7 +64,7 @@ const Contact = () => {
                   type="email"
                   placeholder="Your E-mail"
                   name="email"
-                  className="border-2 border-gray-300 focus:bg-gray-200 outline-none py-1 pl-2  rounded-md mt-3  w-[100%] lg:text-xl"
+                  className="border-2 border-gray-300 focus:bg-gray-200 outline-none py-1 pl-2  rounded-md mt-3  w-[100%]"
                   {...register("email", { required: true })}
                 />
                 {errors.email && (
@@ -76,7 +76,7 @@ const Contact = () => {
                 <textarea
                   name="message"
                   placeholder="Your Message"
-                  className="border-2 border-gray-300 focus:bg-gray-200 outline-none pl-2 rounded-md w-[100%] mt-3 lg:text-xl"
+                  className="border-2 border-gray-300 focus:bg-gray-200 outline-none pl-2 rounded-md w-[100%] mt-3 "
                   {...register("message", { required: true })}
                 ></textarea>
                 {errors.message && (
@@ -86,14 +86,14 @@ const Contact = () => {
                 )}
                 <button
                   type="submit"
-                  className="rounded-md bg-black text-white font-bold py-1 lg:text-xl w-[100%] hover:bg-gray-900 active:bg-black hover:cursor-pointer"
+                  className="rounded-md bg-black text-white  py-2 lg:text-xl w-[100%] hover:bg-gray-900 active:bg-black hover:cursor-pointer"
                 >
                   Send Message
                 </button>
               </form>
             </div>
             <div>
-              <h1 className="font-bold py-3 lg:text-2xl">
+              <h1 className="font-bold py-3 lg:text-xl">
                 Contact Information
               </h1>
               <div className="flex gap-3 lg:text-xl">

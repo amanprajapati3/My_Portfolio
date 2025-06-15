@@ -12,27 +12,27 @@ const Main = () => {
       <div className="bg-[url(https://wallpapers.com/images/hd/light-color-background-vmkuihk29pi1xq65.jpg)] lg:p-20 md:p-10 pt-12 pl-6">
         <div className="flex lg:px-12 pt-10 flex-wrap md:flex-nowrap g lg:gap-2">
           <div className=" md:w-full" id="slide_from_right">
-            <p className="font-light text-xl pb-3">WELCOME TO MY WORLD</p>
-            <h1 className="lg:text-5xl text-4xl pb-4 font-extrabold">
+            <p className="font-light text-md pb-3">WELCOME TO MY WORLD</p>
+            <h1 className="md:text-3xl text-2xl pb-4 font-extrabold">
               Hi I'm Aman Prajapati
             </h1>
-            <div id="text_animation" className="md:text-5xl text-2xl">
+            <div id="text_animation" className="md:text-3xl text-2xl">
               Frontend Dev
             </div>
-            <p className="pt-10 w-[80%]">
+            <p className="pt-10 text-sm w-[80%]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Blanditiis exercitationem excepturi autem natus sint facere fugiat
               totam doloremque eaque reprehenderit accusamus sequi dolore qui,
               temporibus tempora repell
             </p>
             <span className="flex sm:gap-5 gap-2 mt-10">
-              <button className="flex lg:gap-3 gap-2 sm:text-xl text-white bg-fuchsia-700 p-2 rounded-md active:bg-purple-800 hover:bg-purple-700 cursor-pointer">
+              <button className="flex lg:gap-3 gap-2 sm:text-md text-white bg-fuchsia-700 p-2 rounded-md active:bg-purple-800 hover:bg-purple-700 cursor-pointer">
                 Hire Me Now !{" "}
                 <span className="pt-1">
                   <FaArrowRight />
                 </span>
               </button>
-              <button className="flex lg:gap-3 gap-2 sm:text-xl text-white bg-red-700 p-2 rounded-md active:bg-red-900 hover:bg-red-900 cursor-pointer">
+              <button className="flex lg:gap-3 gap-2 sm:text-md text-white bg-red-700 p-2 rounded-md active:bg-red-900 hover:bg-red-900 cursor-pointer">
                 Download CV{" "}
                 <span className="pt-1">
                   <FiDownload />

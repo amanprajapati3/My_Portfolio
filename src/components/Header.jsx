@@ -18,16 +18,21 @@ const Header = () => {
 
   return (
     <>
-      <div className="flex justify-between fixed w-full left-0 top-0 py-2 lg:px-12 px-5 bg-blue-100 opacity-90 shadow-2xl shadow-purple-400 z-50">
-        <div className="lg:pl-12">
+      <div className="flex justify-between fixed w-full left-0 top-0 lg:px-12 px-5 bg-blue-100 opacity-90 shadow-2xl shadow-purple-400 z-50">
+        <div className="p-1">
           <a href="/" className="">
-            <h1 className="text-fuchsia-700  hover:text-fuchsia-900 lg:text-5xl text-3xl">
+            <h1 className="text-fuchsia-700  hover:text-fuchsia-900 md:text-3xl text-2xl">
               Aman
             </h1>
           </a>
 
            {/* navbar for mobile responsive */}
-        <ul className={`${IsMenuOpen ? "block mt-4 w-[100%] " : "hidden"}`}>
+        <ul className={`fixed top-[40px] text-center pt-2 bg-blue-500 text-white sm:hidden right-0 h-screen z-40 w-[70%] transform transition-transform duration-500 ease-in-out
+          ${
+            IsMenuOpen
+              ? "translate-x-0 shadow-2xl shadow-black"
+              : "translate-x-full "
+          }`}>
         <li className="lg:text-xl font-bold font-sans transition-all duration-300  active:text-gray-800 rounded-md py-2 px-3 hover:text-gray-600">
            <a href="#">Home</a>
             </li>
@@ -55,40 +60,40 @@ const Header = () => {
 
        
         <div>
-          <ul className="hidden md:flex gap-2 mt-1">
-            <li className="lg:text-xl font-bold font-sans transition-all duration-300 active:text-black rounded-md hover:bg-fuchsia-600 py-1 px-3 hover:text-white">
+          <ul className="hidden md:flex gap-2">
+            <li className="text-sm font-bold font-sans transition-all duration-300 active:text-black  hover:bg-fuchsia-600 py-3 px-3 hover:text-white">
               <a href="#">Home</a>
             </li>
-            <li className="lg:text-xl font-bold font-sans transition-all duration-300  active:text-black rounded-md hover:bg-fuchsia-600 py-1 px-3 hover:text-white">
+            <li className="text-sm font-bold font-sans transition-all duration-300  active:text-black  hover:bg-fuchsia-600 py-3 px-3 hover:text-white">
               <a href="#about">About</a>
             </li>
-            <li className="lg:text-xl font-bold font-sans transition-all duration-300  active:text-black rounded-md hover:bg-fuchsia-600 py-1 px-3 hover:text-white">
+            <li className="text-sm font-bold font-sans transition-all duration-300  active:text-black  hover:bg-fuchsia-600 py-3 px-3 hover:text-white">
               <a href="#service">Service</a>
             </li>
-            <li className="lg:text-xl font-bold font-sans transition-all duration-300  active:text-black rounded-md hover:bg-fuchsia-600 py-1 px-3 hover:text-white">
+            <li className="text-sm font-bold font-sans transition-all duration-300  active:text-black  hover:bg-fuchsia-600 py-3 px-3 hover:text-white">
               <a href="#project">Project</a>
             </li>
-            <li className="lg:text-xl font-bold font-sans transition-all duration-300  active:text-black rounded-md hover:bg-fuchsia-600 py-1 px-3 hover:text-white">
+            <li className="text-sm font-bold font-sans transition-all duration-300  active:text-black  hover:bg-fuchsia-600 py-3 px-3 hover:text-white">
               <a href="#blog">Blog</a>
             </li>
-            <li className="lg:text-xl font-bold font-sans transition-all duration-300  active:text-black rounded-md hover:bg-fuchsia-600 py-1 px-3 hover:text-white">
+            <li className="text-sm font-bold font-sans transition-all duration-300  active:text-black  hover:bg-fuchsia-600 py-3 px-3 hover:text-white">
               <a href="#my_skill">My Skills</a>
             </li>
-            <li className="lg:text-xl font-bold font-sans transition-all duration-300  active:text-black rounded-md hover:bg-fuchsia-600 py-1 px-3 hover:text-white">
+            <li className="text-sm font-bold font-sans transition-all duration-300  active:text-black  hover:bg-fuchsia-600 py-3 px-3 hover:text-white">
               <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>
         <div className="flex gap-2">
         <div className="md:hidden">
-          <button onClick={toggleMenu} className="hover:cursor-pointer text-xl pt-1 sm:text-2xl">
+          <button onClick={toggleMenu} className="hover:cursor-pointer text-xl pt-3 sm:text-2xl">
                 { IsMenuOpen ? (<FaTimes/>)   : (<FaBars/>)}             
             </button>
           </div>
-          <button className="bg-purple-700 text-white p-2 rounded-md hover:bg-purple-900 active:bg-purple-900 h-fit">
+          <button className="bg-purple-700 text-white sm:px-3 sm:py-3 rounded-md hover:bg-purple-900 p-1 mt-1 sm:mt-0 active:bg-purple-900 text-sm h-fit">
             <a href="#" className="flex gap-2 font-bold">
               Let's chat{" "}
-              <span className="text-white text-xl">
+              <span className="text-white  text-[19px] pt-1">
                 <FaRocketchat />
               </span>
             </a>
