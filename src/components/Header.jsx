@@ -18,7 +18,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="flex justify-between fixed w-full left-0 top-0 lg:px-12 px-5 bg-blue-100 opacity-90 shadow-2xl shadow-purple-400 z-50">
+      <div className="flex justify-between fixed w-full left-0 top-0 lg:px-12 px-5 bg-blue-100 opacity-90 shadow-2xl py-2 sm:py-0 shadow-purple-400 z-50">
         <div className="p-1">
           <a href="/" className="">
             <h1 className="text-fuchsia-700  hover:text-fuchsia-900 md:text-3xl text-2xl">
@@ -90,10 +90,10 @@ const Header = () => {
                 { IsMenuOpen ? (<FaTimes/>)   : (<FaBars/>)}             
             </button>
           </div>
-          <button className="bg-purple-700 text-white sm:px-3 sm:py-3 rounded-md hover:bg-purple-900 p-1 mt-1 sm:mt-0 active:bg-purple-900 text-sm h-fit">
+          <button className="bg-purple-700 text-white sm:px-3 sm:py-3 rounded-md hover:bg-purple-900 p-1 mt-2  sm:mt-0 active:bg-purple-900 text-sm h-fit">
             <a href="#" className="flex gap-2 font-bold">
               Let's chat{" "}
-              <span className="text-white  text-[19px] pt-1">
+              <span className="text-white  text-[19px] ">
                 <FaRocketchat />
               </span>
             </a>
