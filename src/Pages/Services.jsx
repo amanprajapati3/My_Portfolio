@@ -7,7 +7,7 @@ import "./Animated_scroll.css";
 const Services = () => {
   return (
     <>
-      <div className="bg-[url('https://wallpapers.com/images/hd/light-color-background-vmkuihk29pi1xq65.jpg')] bg-cover bg-center md:pt-5 pt-16 px-5 pb-20">
+      <div className=" bg-cover bg-center md:pt-5 pt-16 px-5 pb-20">
         <h1 className="text-center text-red-600 lg:text-3xl text-2xl pt-5">
           My Services
         </h1>

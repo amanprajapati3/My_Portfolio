@@ -46,18 +46,18 @@ const CircularProgressBar = ({ percentage, name }) => {
           {percentage}%
         </text>
       </svg>
-      <p className="mt-2 text-gray-700 font-medium">{name}</p>
+      <p className="mt-2  font-medium">{name}</p>
     </div>
   );
 };
 
 const MySkills = () => {
   return (
-    <div className="bg-[url('https://wallpapers.com/images/hd/light-color-background-vmkuihk29pi1xq65.jpg')] bg-cover bg-center md:pt-5 pt-16 px-5 pb-20">
+    <div className=" bg-cover bg-center md:pt-5 pt-16 px-5 pb-20">
        <h1 className="text-center text-red-600 lg:text-3xl text-2xl pt-5">
           My Skills
         </h1>
-      <p className="text-center  font-light text-gray-600 py-2">MY FRONTEND SKILLS</p>
+      <p className="text-center  font-light  py-2">MY FRONTEND SKILLS</p>
       <div className="flex flex-wrap justify-center p-6" id="project_scroll">
         {skills.map((skill) => (
           <CircularProgressBar

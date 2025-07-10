@@ -9,7 +9,7 @@ import { IoLogoWhatsapp } from "react-icons/io";
 const Main = () => {
   return (
     <>
-      <div className="bg-[url(https://wallpapers.com/images/hd/light-color-background-vmkuihk29pi1xq65.jpg)] lg:p-20 md:p-10 pt-12 pl-6">
+      <div className=" lg:p-20 md:p-10 pt-12 pl-6">
         <div className="flex lg:px-12 pt-10 flex-wrap md:flex-nowrap g lg:gap-2">
           <div className=" md:w-full" id="slide_from_right">
             <p className="font-light text-md pb-3">WELCOME TO MY WORLD</p>

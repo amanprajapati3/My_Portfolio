@@ -29,7 +29,7 @@ const Contact = () => {
 
   return (
     <>
-      <div className="mt-16 flex justify-center mx-auto">
+      <div className=" flex justify-center mx-auto">
         <div className="p-5">
           <h1 className="text-xl text-center font-bold font-mono lg:text-3xl">
             Contact Us
@@ -50,7 +50,7 @@ const Contact = () => {
                   type="text"
                   placeholder="Your Name"
                   name="name"
-                  className="border-2 border-gray-300 focus:bg-gray-200 outline-none pl-2 py-1  rounded-md w-[100%] "
+                  className="border-2 border-gray-300 outline-none pl-2 py-1  rounded-md w-[100%] "
                   {...register("name", { required: true })}
                 />
                 {errors.name && (
@@ -64,7 +64,7 @@ const Contact = () => {
                   type="email"
                   placeholder="Your E-mail"
                   name="email"
-                  className="border-2 border-gray-300 focus:bg-gray-200 outline-none py-1 pl-2  rounded-md mt-3  w-[100%]"
+                  className="border-2 border-gray-300  outline-none py-1 pl-2  rounded-md mt-3  w-[100%]"
                   {...register("email", { required: true })}
                 />
                 {errors.email && (
@@ -76,7 +76,7 @@ const Contact = () => {
                 <textarea
                   name="message"
                   placeholder="Your Message"
-                  className="border-2 border-gray-300 focus:bg-gray-200 outline-none pl-2 rounded-md w-[100%] mt-3 "
+                  className="border-2 border-gray-300  outline-none pl-2 rounded-md w-[100%] mt-3 "
                   {...register("message", { required: true })}
                 ></textarea>
                 {errors.message && (

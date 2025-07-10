@@ -25,11 +25,11 @@ const Projects = () => {
 
   return (
     <>
-      <div className="bg-[url('https://wallpapers.com/images/hd/light-color-background-vmkuihk29pi1xq65.jpg')] bg-cover bg-center md:pt-5 pt-16 px-5 pb-20">
+      <div className=" bg-cover bg-center md:pt-5 pt-16 px-5 pb-20">
         <h1 className="text-center text-red-600 md:text-3xl text-2xl pt-5">
           My Projects
         </h1>
-        <p className="text-center font-light pt-4">PROJECT BASED ON FRONTEND AND FULL STACK WEB DEVELOPMENT</p>
+        <p className="text-center font-light pt-4 text-gray-700">PROJECT BASED ON FRONTEND AND FULL STACK WEB DEVELOPMENT</p>
         <div id="project_scroll">
         <Carousel responsive={responsive} className=" rounded-xl md:p-2  md:mx-5  my-3"  >
           <div className="bg-white rounded-xl hover:shadow-2xl hover:shadow-gray-500 transition-all duration-200 text-center md:mx-8">
